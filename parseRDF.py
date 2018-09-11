@@ -34,7 +34,7 @@ import tarfile
 import urllib
 import xml.etree.cElementTree as ElementTree
 try:
-	import cPickle as pickle
+	import _pickle as pickle
 except ImportError:
 	import pickle
 
